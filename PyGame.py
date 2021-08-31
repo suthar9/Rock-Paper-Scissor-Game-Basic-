@@ -23,7 +23,7 @@ while player == False:
     elif player == "Paper":
         if computer == "Scissor":
             print ("you lose!", computer ,"Cut Paper")
-        else:
+        else:  
             print("You win", player , "covers rock!")
     elif player == "Scissors":
         if computer == "Rock":
@@ -31,7 +31,7 @@ while player == False:
         else:
             print("you win" , player, "Cuts Paper!")
     else:
-        print("Not a valid input: Please input: Rock, Paper, Scissors")
+        print("Not a valid input: Please input: Rock, Paper, Scissors!!")
 
     player = False
     computer = list[randint(0,2)]
